@@ -1,7 +1,5 @@
 from flask import Flask, request, render_template ,jsonify
-import PyPDF2
-import mammoth
-import xlrd
+import PyPDF2 , mammoth , xlrd
 
 app = Flask(__name__,template_folder='templates')
 
